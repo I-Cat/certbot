@@ -1,5 +1,5 @@
 # This Dockerfile builds an image for development.
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 # Note: this only exposes the port to other docker containers.
 EXPOSE 80 443
